@@ -126,9 +126,9 @@ export const Exp5ClassificationCenterPanel: React.FC<Exp5ClassificationCenterPan
           { title: `이미지 ${compareLeft}`, grid: leftGrid, isXor: false },
           { title: `이미지 ${compareRight}`, grid: rightGrid, isXor: false },
           { title: `서로 다른 칸 (${compareLeft} ≠ ${compareRight})`, grid: null, isXor: true },
-        ].map((panel) => (
+        ].map((panel, panelIdx) => (
           <div
-            key={panel.title}
+            key={`compare-panel-${panelIdx}`}
             className={`flex flex-col gap-1.5 p-2.5 rounded-md border ${
               panel.isXor
                 ? 'bg-amber-50/50 border-amber-300'
