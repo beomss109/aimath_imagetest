@@ -998,7 +998,7 @@ export default function App() {
           <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-3 flex flex-wrap items-center justify-between gap-3">
             <div className="min-w-0">
               <h1 className="text-lg sm:text-xl font-bold tracking-tight text-slate-900 whitespace-nowrap truncate">
-                이미지 데이터 처리 실험실
+                범쌤의 이미지 데이터 처리 실험실
               </h1>
               <p className="text-xs text-slate-500 mt-0.5 truncate">
                 픽셀에서 행렬로, 행렬에서 이미지로 · 오류고등학교 인공지능수학 수행평가
